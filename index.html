@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serveur Ark'Eons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le Serveur Ark'Eons</h1>
+        <p>Votre aventure préhistorique commence ici !</p>
+    </header>
+    
+    <main>
+        <section id="server-info">
+            <h2>Informations du Serveur</h2>
+            <ul>
+                <li><strong>Nom :</strong> Ark'Eons Server</li>
+                <li><strong>Adresse IP :</strong> votre-ip-serveur:27015</li>
+                <li><strong>Version :</strong> Ark: Survival Evolved</li>
+                <li><strong>Statut :</strong> <span id="status">Chargement...</span></li>
+                <li><strong>Joueurs en ligne :</strong> <span id="players">0/10</span></li>
+            </ul>
+        </section>
+        
+        <section id="rules">
+            <h2>Règles du Serveur</h2>
+            <ul>
+                <li>Pas de griefing</li>
+                <li>Respectez les autres joueurs</li>
+                <li>Pas de hacks ou mods non autorisés</li>
+            </ul>
+        </section>
+        
+        <section id="join">
+            <h2>Rejoindre le Serveur</h2>
+            <p>Utilisez l'adresse IP ci-dessus dans le launcher Ark.</p>
+            <button onclick="copyIP()">Copier l'IP</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Serveur Ark'Eons. Tous droits réservés.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
